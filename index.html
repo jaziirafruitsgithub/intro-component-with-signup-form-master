@@ -14,38 +14,48 @@
     <title>INTRO-COMPONENT-WITH-SIGN-UP-FORM</title>
   </head>
   <body>
-    <section id="main">
-      <div class="container">
-        <!-- <img src="IMG/bg-intro-desktop.png" alt="" /> -->
-        <div class="showcase">
-          <div class="cont-text">
-            <div class="cont-header">
-              <h2>Learn to code by watching others</h2>
-            </div>
-            <div class="cont-par">
-              <p>
-                See how experience deveopers solve real word problems in
-                real-time.<br />Watching scripted tutorials is great, but
-                understanding how developers think is unvaluable
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <h3>Try if free 7 days <small>then $20/mo. thereafter</small></h3>
-            <form class="card-form">
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="Last Name" />
-              <input type="email" placeholder="Email Address" />
-              <input type="password" placeholder="Password" />
-              <button type="submit">CLAIM YOUR FREE TRIAL</button>
-              <p>
-                By clicking the button you are agreeing to our
-                <span class="terms">Terms and Services</span>
-              </p>
-            </form>
-          </div>
-        </div>
+    <div class="container">
+      <div class="text">
+        <h1 class="lead">Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. watching
+          scripted tutorials is greate, but understanding how developers think
+          is invaluable
+        </p>
       </div>
-    </section>
+      <div class="form-cont">
+        <div class="form-header box blue">
+          <p><strong>Try it free 7 days</strong> the $20/mo. thereafter</p>
+        </div>
+        <form id="form" class="box">
+          <div class="input-style">
+            <input type="text" id="fname" placeholder="First Name" />
+            <img src="IMG/icon-error.svg" alt="" />
+            <small></small>
+          </div>
+          <div class="input-style">
+            <input type="text" id="lname" placeholder="Last Name" />
+            <img src="IMG/icon-error.svg" alt="" />
+            <small></small>
+          </div>
+          <div class="input-style">
+            <input type="email" id="email" placeholder="Email Address" />
+            <img src="IMG/icon-error.svg" alt="" />
+            <small></small>
+          </div>
+          <div class="input-style">
+            <input type="password" id="password" placeholder="Password" />
+            <img src="IMG/icon-error.svg" alt="" />
+            <small></small>
+          </div>
+          <button class="btn shadow">CLAIM YOUR FREE TRIAL</button>
+          <small class="terms"
+            >By clicking the button you are agreeing our
+            <a href="#" class="services">Terms and Services</a></small
+          >
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
