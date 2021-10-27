@@ -137,3 +137,8 @@ small a {
     font-size: 30px;
   }
 }
+@media (max-width: 590px) {
+  .container {
+    display: block;
+  }
+}
